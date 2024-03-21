@@ -12,9 +12,9 @@ export default function Home(){
     <div class="row">
   
     <div class="col-5 position-absolute top-50 start-10 translate-middle-y"> Hello! My name is <br/>
-    <img class="top-50 logo1" src={logo1}/> <br/>   <span>Software Engineer, based in JC/NYC</span> I enjoy coding and getting creative. I'm currently open to internships and full-time roles in the tech sector. Let's collaborate and create something amazing together!
+    <img class="top-50 logo1" src={logo1} alt="logo"/> <br/>   <span>Software Engineer, based in JC/NYC</span> I enjoy coding and getting creative. I'm currently open to internships and full-time roles in the tech sector. Let's collaborate and create something amazing together!
     <br/> <br/> <button>Contact Me</button> <button>See Projects</button></div>
-    <div class="col-5 position-absolute top-50 end-0 translate-middle-y"><img className="profile" src={profile}/>
+    <div class="col-5 position-absolute top-50 end-0 translate-middle-y"><img className="profile" src={profile} alt="profile"/>
     </div>
   </div>
   </div> 
