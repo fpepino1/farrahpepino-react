@@ -1,0 +1,29 @@
+.logo1{
+    height:150px;
+}
+.profile{
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    background-color: hsla(0, 0%, 20%, 0.4);
+    padding: 10px;
+}
+
+div button{
+    background-color: hsla(0, 0%, 20%, 0.4);
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px 45px 17px 45px;
+    font-weight: lighter;
+    color: white;
+    
+ 
+}
+div button:hover {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border-style: none;
+    color: hsla(0, 0%, 20%, 0.4);
+    transform: 0.1s;
+  }
+
+ 

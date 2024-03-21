@@ -1,11 +1,13 @@
 import React from "react";
+import "./Navigation.css";
+import logo from "./logo2.png";
 
 function Navigation() {
     return(
         <div className="Navigation">
-       <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light.bg-gradient">
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="media/FARRAH PEPINO (png)/2.png"/></a>
+    <a class="navbar-brand" href="#"><img className= "logo" alt="logo" src={logo}/></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
