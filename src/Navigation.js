@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navigation.css";
 import logo from "./logo2.png";
-import Home from "./Home";
+
 
 function Navigation() {
     return(
