@@ -8,7 +8,7 @@ export default function Home(){
 
     return(
         
-    <div className="Home"><div class="container-xxl">
+    <div className="Home" id="Home"><div class="container-xxl">
     <div class="row">
   
     <div class="col-5 position-absolute top-50 start-10 translate-middle-y"> Hello! My name is <br/>
