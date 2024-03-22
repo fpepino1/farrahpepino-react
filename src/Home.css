@@ -19,8 +19,9 @@ div button{
     color: white;
     text-align: center;
     
- 
 }
+
+
 div button:hover {
     background-color: hsla(0, 0%, 100%, 0.5);
     border-style: none;
@@ -28,4 +29,30 @@ div button:hover {
     transform: 0.1s;
   }
 
- 
+  .Home {
+    font-size: 16px;
+  }
+  
+  /* Media queries for responsive font sizes */
+  @media screen and (max-width: 768px) {
+    .Home {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .Home {
+      font-size: 12px;
+    }
+    .Home logo{
+        font-size:30px;
+    }
+
+    .Home logo1{
+        font-size:20px;
+    }
+    .profile {
+        display: none;
+      }
+    
+  }

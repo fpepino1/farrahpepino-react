@@ -6,7 +6,7 @@ import logo from "./logo2.png";
 function Navigation() {
     return(
         <div className="Navigation">
-       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+       <nav class="navbar navbar-expand-lg bg-TRANSPARENT">
   <div class="container-fluid">
     <a class="navbar-brand" href="#Home"><img className= "logo" alt="logo" src={logo}/></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,13 +23,13 @@ function Navigation() {
         <li class="nav-item">
           <a class="nav-link" href="#Home">RESUME</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle" href="#Home" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             PROJECTS
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#Home">FEATURED</a></li>
-            <li><a class="dropdown-item" href="#Home">ALL</a></li>
+          <ul class="dropdown-menu ">
+            <li><a class="dropdown-item bg" href="#Home">FEATURED</a></li>
+            <li><a class="dropdown-item bg" href="#Home">ALL</a></li>
           </ul>
         </li>
       </ul>
