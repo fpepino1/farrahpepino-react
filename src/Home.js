@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import logo1 from "./logo2.png";
 import profile from "./fp_profile.jpeg";
 
 
