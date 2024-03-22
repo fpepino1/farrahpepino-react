@@ -33,24 +33,9 @@ div button:hover {
     font-size: 16px;
   }
   
-  /* Media queries for responsive font sizes */
-  @media screen and (max-width: 768px) {
-    .Home {
-      font-size: 14px;
-    }
-  }
-  
+ 
   @media screen and (max-width: 576px) {
-    .Home {
-      font-size: 12px;
-    }
-    .Home logo{
-        font-size:30px;
-    }
-
-    .Home logo1{
-        font-size:20px;
-    }
+ 
     .profile {
         display: none;
       }

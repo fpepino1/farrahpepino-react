@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation";
+import Contact from "./Contact";
 // import Footer from "./Footer";
 import Home from "./Home";
 import "./Theme.css"
@@ -16,6 +17,7 @@ function App() {
     <Navigation />
     <Home/>
     {/* <Footer/> */}
+    <Contact/>
     </div>
     
   );
