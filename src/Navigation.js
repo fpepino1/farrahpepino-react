@@ -6,14 +6,14 @@ import logo from "./logo2.png";
 function Navigation() {
     return(
         <div className="Navigation">
-       <nav class="navbar navbar-expand-lg bg-TRANSPARENT">
+       <nav class="navbar navbar-expand-lg bg-transparent">
   <div class="container-fluid">
     <a class="navbar-brand" href="#Home"><img className= "logo" alt="logo" src={logo}/></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav justify-content-end">
         <li class="nav-item">
           <a class="nav-link" href="#Home">HOME</a>
         </li>
@@ -28,8 +28,8 @@ function Navigation() {
             PROJECTS
           </a>
           <ul class="dropdown-menu ">
-            <li><a class="dropdown-item bg" href="#Home">FEATURED</a></li>
-            <li><a class="dropdown-item bg" href="#Home">ALL</a></li>
+            <li><a class="dropdown-item " href="#Home">FEATURED</a></li>
+            <li><a class="dropdown-item " href="#Home">ALL</a></li>
           </ul>
         </li>
       </ul>
